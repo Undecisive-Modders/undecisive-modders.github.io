@@ -2,8 +2,8 @@ body {
     margin: 0;
     height: 100vh;
     background-image: url('https://minecraft.wiki/images/Andesite_%28texture%29_JE3_BE2.png?63b0a&format=original'); /* Replace with the path to your stone block pattern */
-    background-repeat: repeat;
-    background-size: cover;
+    background-repeat: repeat; /* Ensures the image repeats */
+    background-size: auto; /* Keeps the original size of the stone block image */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,6 +13,7 @@ body {
     font-family: 'MinecraftSeven', sans-serif;
     font-size: 50px;
     color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional for better visibility */
 }
 
 /* Import the MinecraftSeven font */
