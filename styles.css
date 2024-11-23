@@ -1,7 +1,7 @@
 body {
     margin: 0;
     height: 100vh;
-    background-image: url('stone-block-pattern.png'); /* Replace with the path to your stone block pattern */
+    background-image: url('https://minecraft.wiki/images/Andesite_%28texture%29_JE3_BE2.png?63b0a&format=original'); /* Replace with the path to your stone block pattern */
     background-repeat: repeat;
     background-size: cover;
     display: flex;
@@ -18,5 +18,5 @@ body {
 /* Import the MinecraftSeven font */
 @font-face {
     font-family: 'MinecraftSeven';
-    src: url('MinecraftSeven.ttf') format('truetype'); /* Replace with the path to your font file */
+    src: url('https://raw.githubusercontent.com/Undecisive-Modders/undecisive-modders.github.io/main/minecraftseven.ttf') format('truetype'); /* Replace with the path to your font file */
 }
