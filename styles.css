@@ -16,6 +16,15 @@ body {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional for better visibility */
 }
 
+.discord-text {
+  font-family: 'MinecraftSeven', sans-serif;
+  font-size: 14px;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(93, 0, 252, 0.7);
+  position: absolute;
+  bottom: 15%;
+}
+
 /* Import the MinecraftSeven font */
 @font-face {
     font-family: 'MinecraftSeven';
