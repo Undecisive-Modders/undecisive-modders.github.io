@@ -3,7 +3,7 @@ body {
     height: 100vh;
     background-image: url('https://minecraft.wiki/images/Andesite_%28texture%29_JE3_BE2.png?63b0a&format=original'); /* Replace with the path to your stone block pattern */
     background-repeat: repeat; /* Ensures the image repeats */
-    background-size: auto; /* Keeps the original size of the stone block image */
+    background-size: 400%; /* Keeps the original size of the stone block image */
     display: flex;
     justify-content: center;
     align-items: center;
