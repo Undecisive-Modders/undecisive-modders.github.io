@@ -25,7 +25,6 @@ body {
   bottom: 15%;
 }
 
-/* Import the MinecraftSeven font */
 @font-face {
     font-family: 'MinecraftSeven';
     src: url('https://raw.githubusercontent.com/Undecisive-Modders/undecisive-modders.github.io/main/minecraftseven.ttf') format('truetype'); /* Replace with the path to your font file */
