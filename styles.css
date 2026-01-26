@@ -6,25 +6,28 @@ body {
     background-size: 128px 128px;
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .centered-text {
     font-family: 'MinecraftSeven', sans-serif;
     font-size: 50px;
     color: #fff;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Optional for better visibility */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    align-items: center;
 }
 
 .discord-text {
   font-family: 'MinecraftSeven', sans-serif;
   font-size: 14px;
-  color: #fff;
-  text-shadow: 2px 2px 5px rgba(93, 0, 252, 0.7);
+  color: #5d00fcb3;
+  text-shadow: 2px 2px 5px #5c00fcaa;
   position: absolute;
   bottom: 15%;
 }
 
+.topleft-icon {
+    text-align: left;
+}
 @font-face {
     font-family: 'MinecraftSeven';
     src: url('https://raw.githubusercontent.com/Undecisive-Modders/undecisive-modders.github.io/main/minecraftseven.ttf') format('truetype'); /* Replace with the path to your font file */
