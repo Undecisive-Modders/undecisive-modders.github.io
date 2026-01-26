@@ -7,11 +7,10 @@ body {
     display: flex;
 }
 
-.title {
+.header {
     font-family: 'MinecraftSeven', sans-serif;
     font-size: 32px;
     color: #fff;
-    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
 }
 
 @font-face {
