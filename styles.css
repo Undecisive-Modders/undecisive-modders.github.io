@@ -5,30 +5,16 @@ body {
     background-repeat: repeat;
     background-size: 128px 128px;
     display: flex;
-    justify-content: center;
 }
 
-.centered-text {
+.title {
     font-family: 'MinecraftSeven', sans-serif;
-    font-size: 50px;
+    font-size: 32px;
     color: #fff;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
-    align-items: center;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.75);
 }
 
-.discord-text {
-  font-family: 'MinecraftSeven', sans-serif;
-  font-size: 14px;
-  color: #5d00fcb3;
-  text-shadow: 2px 2px 5px #5c00fcaa;
-  position: absolute;
-  bottom: 15%;
-}
-
-.topleft-icon {
-    text-align: left;
-}
 @font-face {
     font-family: 'MinecraftSeven';
-    src: url('https://raw.githubusercontent.com/Undecisive-Modders/undecisive-modders.github.io/main/minecraftseven.ttf') format('truetype'); /* Replace with the path to your font file */
+    src: url('/minecraftseven.ttf') format('truetype');
 }
