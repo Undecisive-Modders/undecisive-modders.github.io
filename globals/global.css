@@ -3,9 +3,7 @@
 body {
     margin: 0;
     height: 100vh;
-    background-image: url('/background.png');
     background-repeat: repeat;
-    background-size: 128px 128px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,6 +30,6 @@ p {
 }
 /* Font Import */
 @font-face {
-    font-family: 'MinecraftSeven';
-    src: url('/minecraftseven.ttf') format('truetype');
+    font-family: 'FontHeading';
+    src: url('/globals/global_font_heading.ttf') format('truetype');
 }

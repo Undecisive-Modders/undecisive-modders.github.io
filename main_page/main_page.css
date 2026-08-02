@@ -1,0 +1,7 @@
+body {
+    background-image: url('main_page_bg.png');
+    background-size: 128px 128px;
+}
+img:hover {
+    transform: scale(1.5);
+}
