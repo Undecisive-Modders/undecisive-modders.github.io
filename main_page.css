@@ -2,6 +2,9 @@ body {
     background-image: url('main_page_bg.png');
     background-size: 128px 128px;
 }
+img {
+    transition: transform .2s;
+}
 img:hover {
-    transform: scale(1.5) .2s;
+    transform: scale(1.5);
 }
